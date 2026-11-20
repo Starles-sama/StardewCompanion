@@ -25,7 +25,7 @@ jobs:
           gradle-version: '8.7'
 
       - name: Preparar Android
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Extrair projeto
         run: |
